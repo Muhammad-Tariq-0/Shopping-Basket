@@ -1,0 +1,63 @@
+.im{
+    max-width: 600px;
+    min-height: 450px;
+    background-image: url(./images/so5.png);
+    background-repeat: no-repeat;
+    background-size: 550px 500px;
+    
+}
+body{
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, blue , rgb(142, 116, 165));
+}
+.main{
+   text-align: center;
+    margin-top: -300px;
+    color: white;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+}
+.homebutton{
+    background-color:#6f6d929e;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+}
+.txt{
+    color: cornsilk;
+    font-size: smaller;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: center;;
+}
+
+.box > div{
+    margin: 30px;
+    background-color: white;
+    border-radius: 20px;
+    width: 240px;
+}
+.cartbutton{
+    background-color:#6f6d929e;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.Basket{
+    color: cornsilk;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+ .btn:hover{
+background-color: rgb(73, 62, 62);
+ }
+.cartbg{
+    background-color:black;
+}
