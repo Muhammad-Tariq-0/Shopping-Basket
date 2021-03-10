@@ -3,12 +3,8 @@ import { useSelector } from 'react-redux'
 import {Link} from 'react-router-dom'
 import { add, store } from '../features/counter/counterSlice'
 import { ShoeType } from './Types/ShoeType'
-import c1 from '../images/c1.png'
-import add1 from '../images/add1.png'
 import add2 from '../images/add2.webp'
-import add3 from '../images/add3.png'
 import {Button} from 'react-bootstrap'
-import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 export const ShoePage = () => {
   const shoes = useSelector((state:ShoeType[]) => state)
     return (
